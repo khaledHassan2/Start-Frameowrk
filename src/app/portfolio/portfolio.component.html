@@ -1,0 +1,56 @@
+<section class="py-3 container mt-5">
+    <h1 class="text-center mt-5 py-3">PORTFOLIO COMPONENT</h1>
+    <div class="my-3 text-center">
+        <span class="line"></span>
+        <span><i class="fa-solid fa-star"></i></span>
+        <span class="line"></span>
+    </div>
+
+
+   
+  
+<div class="row myrow  row-gap-4 py-4">
+
+     <div  class="col-lg-4 rounded-4">
+         <div (click)="x($event)" class="inner position-relative">
+             <img class="w-100 rounded-4" src="./assets/imges/imges2.png" alt="">
+             <div class="plus rounded-4 position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center text-white"> <i class="fa-solid fa-plus fa-6x"></i></div>
+          </div>
+     </div>
+     <div class="col-lg-4 rounded-4">
+          <div  (click)="x($event)" class="inner position-relative">
+              <img class="myimg w-100 rounded-4" src="./assets/imges/imges3.png" alt="">
+              <div class=" plus rounded-4 position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center text-white"> <i class="fa-solid fa-plus fa-6x"></i></div>
+          </div>
+     </div> 
+     <div class="col-lg-4 rounded-4">
+          <div  (click)="x($event)" class="inner position-relative">
+              <img class="w-100 rounded-4" src="./assets/imges/imges4.png" alt="">
+              <div class="plus rounded-4 position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center text-white"> <i class="fa-solid fa-plus fa-6x"></i></div>
+          </div>
+     </div>
+     <div class="col-lg-4 rounded-4">
+          <div  (click)="x($event)" class="inner position-relative">
+              <img class="w-100 rounded-4" src="./assets/imges/imges2.png" alt="">
+              <div class="plus rounded-4 position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center text-white"> <i class="fa-solid fa-plus fa-6x"></i></div>
+          </div>
+     </div>
+     <div class="col-lg-4 rounded-4">
+          <div  (click)="x($event)" class="inner position-relative">
+              <img class="w-100 rounded-4" src="./assets/imges/imges3.png" alt="">
+              <div class="plus rounded-4 position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center text-white"> <i class="fa-solid fa-plus fa-6x"></i></div>
+          </div>
+     </div>
+     <div class="col-lg-4 rounded-4">
+          <div  (click)="x($event)" class="inner position-relative">
+              <img class="w-100 rounded-4" src="./assets/imges/imges4.png" alt="">
+              <div class="plus rounded-4 position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center text-white"> <i class="fa-solid fa-plus fa-6x"></i></div>
+          </div>
+     </div>
+     <div (click)="y()" class="mylayout position-fixed start-0 w-100 top-0 h-100 bg-dark bg-opacity-75 d-flex justify-content-center align-items-center z-2 {{isshaw}}">
+        <img class="myout w-50 z-3" alt="" [src]="mysrc">
+    </div>
+
+</div>
+   
+</section>

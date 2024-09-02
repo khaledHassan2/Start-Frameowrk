@@ -1,0 +1,9 @@
+.plus{
+    background-color: #29b198de;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.inner:hover .plus{
+    opacity: 1;
+
+}
